@@ -39,7 +39,7 @@ $featuredProjects = get_featured_projects();
     <!-- Styles -->
     <link rel="stylesheet" href="assets/frontend/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="assets/frontend/css/style.css?v=amber6">
+    <link rel="stylesheet" href="assets/frontend/css/style.css?v=amber7">
     <!-- Canonical -->
     <link rel="canonical" href="./">
         <!-- Google Analytics -->

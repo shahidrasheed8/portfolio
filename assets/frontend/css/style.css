@@ -13,6 +13,10 @@
   --black: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
   --accent-hover: #f5b85a;
+  --light-gray: hsl(220, 10%, 78%);
+  --jet: hsl(220, 8%, 22%);
+  --eerie-black-1: #0a0c10;
+  --eerie-black-2: #12141a;
 
   /**
    * typography
@@ -67,12 +71,15 @@ body.dark_theme {
   --bg-secondary-elevated: #1a1d24;
   --color-primary: hsl(0, 0%, 100%);
   --color-secondary: hsl(220, 8%, 68%);
+  --light-gray: hsl(220, 10%, 82%);
+  --jet: hsl(220, 8%, 26%);
   --card-shadow: hsla(220, 20%, 2%, 0.65);
   --input-bg: #14161c;
   --pale-green: #e8a33d;
   --stats-icon-filter: brightness(0) saturate(100%);
   --shadow-1: 10px 10px 40px var(--card-shadow);
   background: var(--bg-primary);
+  color: var(--color-secondary);
 }
 
 /*-----------------------------------*\
@@ -4727,7 +4734,7 @@ textarea.input-field {
 
 .pd-page__body,
 .project-modal__body {
-  color: var(--light-gray);
+  color: #d5d9e2;
 }
 
 .pd-thumb {
@@ -4794,7 +4801,7 @@ textarea.input-field {
 
 .pd-desc {
   margin: 0 0 1.1rem;
-  color: var(--light-gray);
+  color: #d5d9e2;
   line-height: 1.7;
 }
 
@@ -4820,7 +4827,11 @@ textarea.input-field {
   margin: 0;
   font-size: 0.95rem;
   line-height: 1.7;
-  color: var(--light-gray);
+  color: #d5d9e2;
+}
+
+.pd-section p strong {
+  color: #f0f2f7;
 }
 
 .pd-feature-list {
@@ -4837,7 +4848,7 @@ textarea.input-field {
   padding-left: 1.1rem;
   font-size: 0.92rem;
   line-height: 1.55;
-  color: var(--light-gray);
+  color: #d5d9e2;
 }
 
 .pd-feature-list li::before {
@@ -4862,11 +4873,11 @@ textarea.input-field {
   align-items: center;
   font-size: 0.78rem;
   font-family: var(--ff-poppins);
-  color: var(--light-gray);
-  border: 1px solid var(--jet);
+  color: #e8ebf2;
+  border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 8px;
   padding: 0.4rem 0.75rem;
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.08);
   transition: border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
