@@ -22,7 +22,8 @@ function site_base(): string
         return $base;
     }
 
-    $base = '/shahid/';
+    // Local XAMPP fallback; on shared hosting (public_html) docroot match above yields '/'.
+    $base = (str_ends_with($rootCmp, '/shahid') || str_ends_with($rootCmp, '\\shahid')) ? '/shahid/' : '/';
     return $base;
 }
 
