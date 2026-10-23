@@ -4733,8 +4733,14 @@ textarea.input-field {
 }
 
 .pd-page__body,
-.project-modal__body {
-  color: #d5d9e2;
+.project-modal__body,
+.pd-page__body p,
+.pd-page__body li,
+.pd-page__body span,
+.project-modal__body p,
+.project-modal__body li,
+.project-modal__body span {
+  color: #e8eaef !important;
 }
 
 .pd-thumb {
@@ -4801,7 +4807,7 @@ textarea.input-field {
 
 .pd-desc {
   margin: 0 0 1.1rem;
-  color: #d5d9e2;
+  color: #e8eaef !important;
   line-height: 1.7;
 }
 
@@ -4827,11 +4833,11 @@ textarea.input-field {
   margin: 0;
   font-size: 0.95rem;
   line-height: 1.7;
-  color: #d5d9e2;
+  color: #e8eaef !important;
 }
 
 .pd-section p strong {
-  color: #f0f2f7;
+  color: #ffffff !important;
 }
 
 .pd-feature-list {
@@ -4848,7 +4854,7 @@ textarea.input-field {
   padding-left: 1.1rem;
   font-size: 0.92rem;
   line-height: 1.55;
-  color: #d5d9e2;
+  color: #e8eaef !important;
 }
 
 .pd-feature-list li::before {
@@ -4873,11 +4879,11 @@ textarea.input-field {
   align-items: center;
   font-size: 0.78rem;
   font-family: var(--ff-poppins);
-  color: #e8ebf2;
-  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.28);
   border-radius: 8px;
   padding: 0.4rem 0.75rem;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.12);
   transition: border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 

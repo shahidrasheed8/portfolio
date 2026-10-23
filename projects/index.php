@@ -23,7 +23,7 @@ $total = count($projects);
     <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?= e($base) ?>assets/frontend/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="<?= e($base) ?>assets/frontend/css/style.css?v=amber7">
+    <link rel="stylesheet" href="<?= e($base) ?>assets/frontend/css/style.css?v=amber8">
     <link rel="canonical" href="<?= e($base) ?>projects/">
 </head>
 <body id="top" class="dark_theme">
